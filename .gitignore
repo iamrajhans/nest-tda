@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# TypeScript build output
+dist/
+
+# Production environment variables
+.env
+.env.*  # In case you have multiple environment files like .env.production, .env.staging, etc.
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS files
+.DS_Store
+
+# Coverage reports
+coverage/
+
+# Editor-specific
+.vscode/
+.idea/
